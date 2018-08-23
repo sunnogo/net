@@ -28,9 +28,9 @@ import (
 	"sync"
 	"time"
 
-	"golang.org/x/net/http/httpguts"
-	"golang.org/x/net/http2/hpack"
-	"golang.org/x/net/idna"
+	"github.com/sunnogo/net/http/httpguts"
+	"github.com/sunnogo/net/http2/hpack"
+	"github.com/sunnogo/net/idna"
 )
 
 const (

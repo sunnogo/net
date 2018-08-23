@@ -9,8 +9,8 @@ package ipv6
 import (
 	"unsafe"
 
-	"golang.org/x/net/bpf"
-	"golang.org/x/net/internal/socket"
+	"github.com/sunnogo/net/bpf"
+	"github.com/sunnogo/net/internal/socket"
 )
 
 func (so *sockOpt) setAttachFilter(c *socket.Conn, f []bpf.RawInstruction) error {

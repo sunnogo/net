@@ -14,8 +14,8 @@ import (
 	"runtime"
 	"testing"
 
-	"golang.org/x/net/internal/nettest"
-	"golang.org/x/net/internal/socket"
+	"github.com/sunnogo/net/internal/nettest"
+	"github.com/sunnogo/net/internal/socket"
 )
 
 type mockControl struct {
