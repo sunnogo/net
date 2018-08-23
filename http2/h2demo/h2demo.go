@@ -30,8 +30,8 @@ import (
 
 	"cloud.google.com/go/storage"
 	"go4.org/syncutil/singleflight"
-	"golang.org/x/build/autocertcache"
-	"golang.org/x/crypto/acme/autocert"
+	"github.com/sunnogo/build/autocertcache"
+	"github.com/sunnogo/crypto/acme/autocert"
 	"github.com/sunnogo/net/http2"
 )
 

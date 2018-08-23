@@ -17,10 +17,10 @@ import (
 	"unicode/utf8"
 
 	"github.com/sunnogo/net/html"
-	"golang.org/x/text/encoding"
-	"golang.org/x/text/encoding/charmap"
-	"golang.org/x/text/encoding/htmlindex"
-	"golang.org/x/text/transform"
+	"github.com/sunnogo/text/encoding"
+	"github.com/sunnogo/text/encoding/charmap"
+	"github.com/sunnogo/text/encoding/htmlindex"
+	"github.com/sunnogo/text/transform"
 )
 
 // Lookup returns the encoding with the specified label, and its canonical
