@@ -22,7 +22,7 @@ import (
 
 	"github.com/sunnogo/oauth2"
 	"github.com/sunnogo/oauth2/google"
-	compute "google.golang.org/api/compute/v1"
+	compute "github.com/sunnogo/google-api-go-client/compute/v1"
 )
 
 var (
